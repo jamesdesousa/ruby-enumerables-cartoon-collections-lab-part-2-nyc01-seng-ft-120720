@@ -30,14 +30,10 @@ def find_valid_calls(planeteer_calls)
   valid_calls1 = valid_calls.join(" ")
   planeteer_calls.each do |element|
     valid_calls.each do |el|
-      if element == el
-        return el 
-      else 
-        return nil 
-      end 
       
-    #binding.pry
-  end 
+     end  
+    binding.pry
+  
   end 
  
    # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
