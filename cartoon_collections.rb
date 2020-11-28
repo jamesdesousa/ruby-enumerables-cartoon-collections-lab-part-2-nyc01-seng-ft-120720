@@ -30,6 +30,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls1 = valid_calls.join(" ")
   planeteer_calls.find do |element|
     valid_calls.each do |el|
+      element ==
       
     binding.pry
   end 
