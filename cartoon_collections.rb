@@ -29,10 +29,13 @@ def find_valid_calls(planeteer_calls)
   count = 0 
   valid_calls1 = valid_calls.join(" ")
   planeteer_calls.each do |element|
-    valid_calls.each do |el|
+    while count < valid_calls.length do 
+        element == valid_calls[count]
+        binding.pry
+      end 
       
      end  
-    binding.pry
+    
   
   end 
  
