@@ -28,7 +28,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   count = 0 
   valid_calls1 = valid_calls.join(" ")
-  planeteer_calls.each do |element|
+  planeteer_calls.count do |element|
     while count < valid_calls.length do 
        if element == valid_calls[count]
          return element
