@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |element|
     binding.pry 
   end 
-end 
+ 
     
 
     
