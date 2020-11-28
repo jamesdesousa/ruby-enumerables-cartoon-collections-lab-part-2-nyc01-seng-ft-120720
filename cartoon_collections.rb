@@ -27,7 +27,10 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   count = 0 
   valid_calls1 = valid_calls.join(" ")
-  planeteer_calls.include?(valid_calls1)
+  planeteer_calls.find do |element|
+    binding.pry 
+  end 
+end 
     
 
     
