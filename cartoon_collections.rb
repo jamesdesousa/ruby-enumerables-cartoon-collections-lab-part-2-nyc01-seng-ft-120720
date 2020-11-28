@@ -31,7 +31,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |element|
     valid_calls.each do |el|
       
-    binding.pry 
+    binding.pry
+  end 
   end 
  
    # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
