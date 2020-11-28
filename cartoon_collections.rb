@@ -33,8 +33,6 @@ def find_valid_calls(planeteer_calls)
     while count < valid_calls.length do 
        if element == valid_calls[count]
          return element
-       else 
-         return nil 
        end 
        count = count + 1 
        # binding.pry
